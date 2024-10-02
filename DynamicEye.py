@@ -3,7 +3,6 @@ import cv2
 cap = cv2.VideoCapture(0)
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
-frame1 = cv2.flip(frame1, 1)
 
 while cap.isOpened():
 
